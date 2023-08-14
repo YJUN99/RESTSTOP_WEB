@@ -22,22 +22,22 @@
 #### USERS
 ![Alt text](image-2.png)
 ---
-### FREEBOARD
+#### FREEBOARD
 ![Alt text](image-3.png)
 ---
-### FREEBOARD_CATEGORY
+#### FREEBOARD_CATEGORY
 ![Alt text](image-4.png)
 ---
-### FREEBOARD_COMMENT
+#### FREEBOARD_COMMENT
 ![Alt text](image-5.png)
 ---
-### NEWSBOARD
+#### NEWSBOARD
 ![Alt text](image-6.png)
 ---
-### NEWSBOARD_CATEGORY
+#### NEWSBOARD_CATEGORY
 ![Alt text](image-7.png)
 ---
-### NEWSBOARD_COMMNENT
+#### NEWSBOARD_COMMNENT
 ![Alt text](image-8.png)
 ---
 
