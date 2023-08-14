@@ -19,11 +19,25 @@
 ### DB 구성
 ![Alt text](ERD.png)
 
+#### USERS
 ![Alt text](image-2.png)
+---
+### FREEBOARD
 ![Alt text](image-3.png)
+---
+### FREEBOARD_CATEGORY
 ![Alt text](image-4.png)
+---
+### FREEBOARD_COMMENT
 ![Alt text](image-5.png)
+---
+### NEWSBOARD
 ![Alt text](image-6.png)
+---
+### NEWSBOARD_CATEGORY
 ![Alt text](image-7.png)
+---
+### NEWSBOARD_COMMNENT
 ![Alt text](image-8.png)
+---
 
