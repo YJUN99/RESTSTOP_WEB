@@ -1,0 +1,86 @@
+/* 로고 : 김정철명조 */
+/* 로고 : 김정철명조 */
+
+.primary_header .container {
+    display: flex; /* 로고와 메인 nav를 한 줄에 배치 */
+    justify-content: space-between; /* 로고와 nav 사이에 최대한의 간격을 줌 */
+    align-items: center; /* 수직 중앙 정렬 */
+}
+
+.primary_header .container button{
+    border:none;
+    background-color: transparent;
+}
+
+.primary_header .container a,button{
+    text-decoration: none;
+    font-size:  20px;
+}
+
+.second-container a{
+    text-decoration: none;
+
+}
+
+.second-nav {
+    display: flex; /* nav 내의 div와 ul을 수평으로 배치 */
+    justify-content: space-between; /* div와 ul 사이에 최대한의 간격을 줌 */
+    align-items: center; /* 요소들을 수직으로 중앙 정렬 */
+}
+
+nav > ul > li {
+    list-style-type: none; /* 리스트 마커 제거 */
+}
+
+nav ul {
+    display: flex; /* 리스트 항목들을 가로로 나열 */
+    gap: 20px; /* 리스트 항목들 사이의 간격 설정 */
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.search-box {
+    box-sizing: border-box;
+    width: 400px; 
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    text-align: center;
+    background-image: url('../resource/find.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x:95%;
+    background-position-y: center;
+}
+  
+.search-box:focus {
+    box-shadow: 0 0 15px 0 black;
+}

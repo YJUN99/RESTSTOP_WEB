@@ -1,0 +1,57 @@
+/* 드롭다운 버튼 스타일링 */
+
+.container{
+    display: flex;
+}
+.free-dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+  /* 드롭다운 컨텐츠 (기본적으로 숨김) */
+.free-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+.free-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+  
+  /* 컨텐츠에 마우스를 올렸을 때의 스타일 */
+.free-dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+  
+/* 드롭다운 메뉴에 마우스를 올렸을 때 컨텐츠 표시 */
+.free-dropdown:hover .free-dropdown-content {
+  display: block;
+}
+  
+/* 드롭다운 메뉴 버튼에 마우스를 올렸을 때의 스타일 */
+.free-dropdown:hover .free-dropbtn {
+   background-color: #2980B9;
+}
+
+table {
+    width: 100%; /* 테이블의 전체 너비를 지정합니다. */
+    border-collapse: collapse; /* 테이블의 테두리 간격을 없애줍니다. */
+}
+td{
+    padding-top: 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.content-column {
+    width: 70%; /* "글" 열의 너비를 테이블 전체 너비의 50%로 설정합니다. */
+}
+  
