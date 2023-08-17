@@ -45,9 +45,9 @@ class News(BaseModel):
   author: str
   createdAt: Union[str,None] = datetime.now() 
   Summary: str
-  likes: int
-  views : int
-  comments: int
+  likes_cnt: int = 0
+  views_cnt : int = 0
+  comments_cnt: int
 
 class Likes(BaseModel):
     UserID: str
@@ -68,8 +68,9 @@ class Boards(BaseModel):
     Content : str
     Category : int
     CreatedAt: Union[str,None] = datetime.now() 
-    likes : int = 0
-    views : int = 0
+    likes_cnt : int = 0
+    views_cnt : int = 0
+    comments_cnt : int = 0
     
 @app.post("/users")
 async def CreateUser(user: Users):
@@ -138,7 +139,6 @@ async def createBoard(board : Boards):
 
 @app.get("/boards")
 async def getBoard():
-    # DB query를 통한 뉴스 목록을 리스트화 하여 리턴할 것
     return {"message" : "자유게시글 전체 목록 가져오기 성공"}
 
 

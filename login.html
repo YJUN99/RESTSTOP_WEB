@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>휴식의 정류장</title>
+    <link rel="stylesheet" href="../static/css/body.css"/>
+    <link rel="stylesheet" href="../static/css/head.css"/>
+    <link rel="stylesheet" href="../static/css/login.css"/>
+</head>
+<body class="login-page">
+    <header class = "primary_header">
+        <div class = "container">
+            <a href="index.html"><button><img src="static/resource/logo.png"></button></a>
+            <nav><ul>
+                <li class = "dropdown"><button class="catetory-dropbtn">
+                    좋은뉴스
+                    <div class = "dropdown-content">
+                        <a href="">사회뉴스</a>
+                        <a href="">경제뉴스</a>
+                        <a href="">IT뉴스</a>
+                        <a href="">지구촌뉴스</a>
+                    </div>
+                </button>
+                </li>
+                <li><button><a href="FreeBoard.html">자유게시판</a></button></li>
+                <li><button><a href="">마이페이지</a></button></li>
+            </ul></nav>
+        </div>
+        <div class="second-container">
+            <nav class="second-nav">
+                <div>
+                    <a href="">Social1</a>
+                    <a href="">Social2</a>
+                    <a href="">Social3</a>
+                </div>
+                <ul>
+                    <li><form><input class="search-box"></form></li>
+                    <li><button id="loginBtn">로그인</button></li>
+                    <li><button>회원가입</button></li>
+                </ul>
+            </nav></div>
+    </header>
+    <hr>
+    <main class = "login-main">
+        <div class="login-container">
+            <h2>로그인</h2>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="username">사용자 이름:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">비밀번호:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="로그인">
+                </div>
+            </form>
+            <p>아직 회원이 아니신가요? <a href="/register">회원가입</a></p>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <a>푸터</a>
+    </footer>
+    <script src="static/js/modal.js"></script>
+</body>
+</html>
