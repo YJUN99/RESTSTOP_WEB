@@ -145,7 +145,6 @@ async def getBoard():
 @app.delete("/boards/{boardID}")
 async def delBoards(boardID : int):
     mylogger.debug(boardID)
-    # 삭제하는 user가 관리자 권한을 가지고 있는지 체크할 것
     return {"message" : "boardID 에 해당하는 뉴스 정보 삭제"}
 
 @app.post("/boards/{boardID}/likes")
